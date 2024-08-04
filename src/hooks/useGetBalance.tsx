@@ -52,7 +52,6 @@ export const useGetBalance = () => {
         }
 
         try {
-            // const nglRawBalance= nativeBalance.value
             const [wethRawBalance, ethRawBalance] = await Promise.all([
                 getWethBalance(TOKENS.WETH.contractAddress, signer),
                 Promise.resolve(nativeBalance.value),
