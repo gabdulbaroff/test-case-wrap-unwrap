@@ -1,0 +1,28 @@
+.amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  background-color: gray;
+  border-radius: 8px;
+  width: 100%;
+  color: white;
+
+  &__field input {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
